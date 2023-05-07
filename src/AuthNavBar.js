@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "./Images/Logo.png";
 
-const Navbar = () => {
+const AuthNavbar = () => {
   return (
     <nav className="navbar">
       {/* <h1>Trip Tracker</h1> */}
@@ -15,4 +15,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default AuthNavbar;
