@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from './Images/Logo.png'
 
 const Navbar = () => {
@@ -6,10 +7,10 @@ const Navbar = () => {
             {/* <h1>Trip Tracker</h1> */}
             <img src={Logo} alt="" />
             <div className="links">
-                <a href="#pagetop">Home</a>
+                <Link to="/">Home</Link>
                 <a href="#About">About</a>
-                <a href="/login">Login</a>
-                <a href="/signup">Signup</a>
+                <Link to="/login">Login</Link>
+                <Link to="/signup">Signup</Link>
             </div>
         </nav>
      );
