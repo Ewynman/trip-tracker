@@ -85,37 +85,6 @@ const Home = () => {
               adipisicing elit. Sed culpa esse quas vel id mollitia odit veniam,
               minus numquam magnam velit nulla, eum tempora asperiores
               reprehenderit laborum? Suscipit, magni adipisci!
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-              fugit perspiciatis! Temporibus harum neque optio, obcaecati
-              numquam ullam, quis quibusdam porro aliquid reiciendis molestias
-              quidem illum. Accusamus nulla totam quas. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Obcaecati numquam velit fugiat
-              et, iste error, laborum corporis, non temporibus fugit repellat id
-              laudantium in illum porro fuga sequi voluptatem debitis? Lorem
-              ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-              ex ullam sunt cupiditate ad tenetur enim quia autem architecto
-              similique eaque cum debitis molestiae laudantium eligendi minus,
-              voluptas quo repellendus. Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Sed culpa esse quas vel id mollitia odit veniam,
-              minus numquam magnam velit nulla, eum tempora asperiores
-              reprehenderit laborum? Suscipit, magni adipisci!
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-              fugit perspiciatis! Temporibus harum neque optio, obcaecati
-              numquam ullam, quis quibusdam porro aliquid reiciendis molestias
-              quidem illum. Accusamus nulla totam quas. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Obcaecati numquam velit fugiat
-              et, iste error, laborum corporis, non temporibus fugit repellat id
-              laudantium in illum porro fuga sequi voluptatem debitis? Lorem
-              ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-              ex ullam sunt cupiditate ad tenetur enim quia autem architecto
-              similique eaque cum debitis molestiae laudantium eligendi minus,
-              voluptas quo repellendus. Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Sed culpa esse quas vel id mollitia odit veniam,
-              minus numquam magnam velit nulla, eum tempora asperiores
-              reprehenderit laborum? Suscipit, magni adipisci!
-              <br />
             </p>
           </div>
           <div className="aboutphoto">
