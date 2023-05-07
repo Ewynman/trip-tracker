@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Footer from "./Footer";
 import Login from "./login";
+import Signup from "./Signup";
 import AuthHome from "./AuthHome";
 
 function App() {
@@ -17,6 +18,10 @@ function App() {
           <Route path="/login">
             <Navbar />
             <Login />
+          </Route>
+          <Route path="/signup">
+            <Navbar />
+            <Signup />
           </Route>
           <Route path="/">
             <Navbar />

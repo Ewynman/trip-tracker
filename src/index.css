@@ -316,3 +316,11 @@ button:hover {
   background-color: #0069d9;
   border-radius: 5px;
 }
+
+
+/* Signup Page Styles */
+.signHead{
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
