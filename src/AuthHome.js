@@ -1,4 +1,5 @@
 import AuthNavbar from "./AuthNavBar";
+import AuthFooter from "./AutFooter";
 import trip1 from "./Images/Trip1.jpg";
 
 const AuthHome = () => {
@@ -67,7 +68,7 @@ const AuthHome = () => {
           {/* <img src="#" alt="Trip Image" /> */}
         </div>
       </div>
-
+      <AuthFooter/>
       {/* All Divs above here */}
     </div>
   );

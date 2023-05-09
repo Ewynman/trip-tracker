@@ -192,7 +192,7 @@
   margin-bottom: auto;
 }
 
-.aboutContent p{
+.aboutContent p {
   font-size: 17px;
 }
 
@@ -211,7 +211,6 @@
   max-height: 100%;
   object-fit: contain;
 }
-
 
 /* Footer Styles */
 .footer {
@@ -245,7 +244,6 @@
   text-align: center;
   margin-top: auto;
 }
-
 
 /* Login Page Styles */
 .login-container {
@@ -296,7 +294,6 @@ button:hover {
   background-color: #070707;
 }
 
-
 /* Auth Navbar Styles */
 .auth-navbar {
   background-color: #007bff;
@@ -317,14 +314,12 @@ button:hover {
   border-radius: 5px;
 }
 
-
 /* Signup Page Styles */
-.signHead{
+.signHead {
   display: grid;
   place-items: center;
   text-align: center;
 }
-
 
 /* Auth Home Styles */
 .HomeContainer {
@@ -358,7 +353,7 @@ button:hover {
 }
 
 /* Auth Home Recent Trip Styles */
-.tripHead{
+.tripHead {
   display: grid;
   place-items: center;
 }
@@ -397,10 +392,129 @@ button:hover {
   margin-left: 1rem;
 }
 
-
 /* Upcoming Trip Styles */
-.upHead{
+.upHead {
   margin-top: 100px;
   display: grid;
   place-items: center;
+}
+
+/* User Profile Styles */
+.user-profile-header {
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+
+.user-profile-photo {
+  position: absolute;
+  bottom: 50%;
+}
+
+.user-profile-photo-image {
+  width: 175px;
+  height: 175px;
+  border-radius: 75%;
+  padding-bottom: 25px;
+}
+
+.user-profile-header-title {
+  margin: 0;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: auto;
+}
+
+/* Edit Info Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  width: 100%;
+}
+
+.profile h1 {
+  margin-top: 0;
+}
+.profile p {
+  text-align: center;
+}
+
+.profile div {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile h2 {
+  margin-top: 0;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.popup form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup input {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.popup button {
+  margin-top: 1rem;
+}
+
+button {
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+input {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }

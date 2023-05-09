@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Login from "./login";
 import Signup from "./Signup";
 import AuthHome from "./AuthHome";
+import AuthProfile from "./Profile";
 
 function App() {
   return (
@@ -15,20 +16,26 @@ function App() {
           <Route path="/AuthHome">
             <AuthHome />
           </Route>
+          <Route path="/profile">
+            <AuthProfile />
+          </Route>
           <Route path="/login">
             <Navbar />
             <Login />
+            <Footer />
           </Route>
           <Route path="/signup">
             <Navbar />
             <Signup />
+            <Footer />
           </Route>
           <Route path="/">
             <Navbar />
             <Home />
+            <Footer />
           </Route>
         </Switch>
-        <Footer />
+        
       </div>
     </Router>
   );
