@@ -74,3 +74,147 @@
   display: grid;
   place-items: center;
 }
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+  .HomeContainer {
+    height: auto;
+    padding: 50px 0;
+  }
+
+  .HomeStats {
+    padding: 20px;
+  }
+
+  .HomeStats h2 {
+    font-size: 20px;
+  }
+
+  .HomeStats p {
+    font-size: 16px;
+  }
+
+  .trip-history {
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+  }
+
+  .trip-card {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  .trip-card .info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .trip-card img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .upHead {
+    margin-top: 50px;
+  }
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .HomeContainer {
+    height: auto;
+    padding: 100px 0;
+  }
+
+  .HomeStats {
+    padding: 40px;
+  }
+
+  .HomeStats h2 {
+    font-size: 28px;
+  }
+
+  .HomeStats p {
+    font-size: 20px;
+  }
+
+  .trip-history {
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+  }
+
+  .trip-card {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  .trip-card .info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .trip-card img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .upHead {
+    margin-top: 75px;
+  }
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 992px) {
+  .HomeContainer {
+    height: 50vh;
+    padding: 150px 0;
+  }
+
+  .HomeStats {
+    padding: 50px;
+  }
+
+  .HomeStats h2 {
+    font-size: 32px;
+  }
+
+  .HomeStats p {
+    font-size: 24px;
+  }
+
+  .trip-history {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 100px;
+  }
+
+  .trip-card {
+    width: 400px;
+    height: 100px;
+    margin: 0;
+  }
+
+  .trip-card .info {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .trip-card img {
+    width: 75px;
+    height: 75px;
+    margin-left: 1rem;
+    margin-bottom: 0;
+  }
+
+  .upHead {
+    margin-top: 100px;
+  }
+}

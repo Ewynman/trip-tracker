@@ -46,3 +46,21 @@ button {
 button:hover {
   background-color: #070707;
 }
+
+/* Media query for screens larger than 768px */
+@media screen and (min-width: 768px) {
+  .login-container {
+    margin-top: 100px;
+  }
+
+  form {
+    width: 50%;
+  }
+}
+
+/* Media query for screens larger than 1200px */
+@media screen and (min-width: 1200px) {
+  form {
+    width: 40%;
+  }
+}
