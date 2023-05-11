@@ -4,6 +4,9 @@
 echo "Enter commit message:"
 read message
 
+# Run build
+npm run build
+
 # Add all files to staging area
 git add .
 
