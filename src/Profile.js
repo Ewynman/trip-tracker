@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import AuthNavbar from "./AuthNavBar";
 import AuthFooter from "./AutFooter";
 import PFP from "./Images/Trip1.jpg";
+import './CSS/UserProfile.css';
 
 const AuthProfile = () => {
   const [showEmailPopup, setShowEmailPopup] = useState(false);

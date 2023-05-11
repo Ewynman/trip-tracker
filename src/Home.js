@@ -2,6 +2,7 @@ import featureImage1 from "./Images/Feature1.jpg";
 import featureImage2 from "./Images/Feature2.jpg";
 import featureImage3 from "./Images/Feature3.jpg";
 import AboutPicture from "./Images/AboutPic.png";
+import './CSS/Home.css';
 
 const Home = () => {
   return (

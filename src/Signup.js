@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
+import './CSS/Signup.css';
 
 const Signup = () => {
   const [fullName, setFullName] = useState("");
@@ -60,7 +61,7 @@ const Signup = () => {
         {passwordError && <p style={{ color: "red" }}>{passwordError}</p>}
         <br />
         <label>
-          <input type="checkbox" checked={isChecked} onChange={(e) => setIsChecked(e.target.checked)} required /> I accept the terms and conditions.
+          <input  type="checkbox" checked={isChecked} onChange={(e) => setIsChecked(e.target.checked)} required /> I accept the terms and conditions.
         </label>
         <br />
         <button type="submit">Sign up</button>

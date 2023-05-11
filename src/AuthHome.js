@@ -1,6 +1,7 @@
 import AuthNavbar from "./AuthNavBar";
 import AuthFooter from "./AutFooter";
 import trip1 from "./Images/Trip1.jpg";
+import './CSS/AuthHome.css';
 
 const AuthHome = () => {
   return (
