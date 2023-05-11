@@ -9,6 +9,7 @@
 <h1 align="center">Trip Tracker</h1>
 
 <p align="center">
+	?branch=[![Netlify Status](https://api.netlify.com/api/v1/badges/d1fb97f5-3610-4f09-9637-f41f7c1d8fda/deploy-status)](https://app.netlify.com/sites/tracktrip/deploys)
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/Ewynman/trip-tracker?color=56BEB8">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/Ewynman/trip-tracker?color=56BEB8">
