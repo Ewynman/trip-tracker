@@ -25,6 +25,7 @@ const Signup = () => {
     }
     setPasswordError("");
     // Send form data to backend for further processing
+    // TODO: Firebase query to add data to DB
     console.log({ fullName, email, phoneNumber, username, password, confirmPassword });
     // Navigate to login page on successful signup
     history.push("/login");

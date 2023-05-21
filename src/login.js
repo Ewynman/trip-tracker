@@ -9,7 +9,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // TODO: Implement login logic here
+    // TODO: Implement login logic here with firebase
     history.push("/authhome"); // navigate to AuthHome
   };
 
